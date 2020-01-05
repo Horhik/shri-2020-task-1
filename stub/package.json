@@ -11,7 +11,8 @@
   "dependencies": {
     "bem-xjst": "^8.9.6",
     "express": "^4.17.1",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "prettier": "^1.19.1"
   },
   "devDependencies": {
     "gulp-sass": "^4.0.2",
