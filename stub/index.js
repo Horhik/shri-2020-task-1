@@ -19,16 +19,16 @@ app.get('/index|product', (req, res) => {
 
     const pageHTML = `
     <!doctype html>
-    <html>
+    <html lang="ru">
         <head>
             <link rel="stylesheet" href="/static/style.css">
+            <title>document</title>
         </head>
         <body>
             ${contentHTML}
             <script type="text/javascript" src="/static/script.js"></script>
         </body>
     </html>`
-
     res.send(pageHTML);
 });
 
